@@ -1,0 +1,15 @@
+Metric,Value
+Total Tests,524
+Accuracy,0.0000
+False Positive Rate,0.0000
+False Negative Rate,0.0000
+Average Response Time (ms),0.05
+
+Category,Accuracy,Precision,Recall,F1
+hate_speech,0.0000,0.0000,0.0000,0.0000
+violence,0.0000,0.0000,0.0000,0.0000
+edge_cases,0.0000,0.0000,0.0000,0.0000
+benign,0.0000,0.0000,0.0000,0.0000
+dangerous,0.0000,0.0000,0.0000,0.0000
+jailbreak,0.0000,0.0000,0.0000,0.0000
+harassment,0.0000,0.0000,0.0000,0.0000

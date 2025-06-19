@@ -1,0 +1,132 @@
+{
+  "total_tests": 524,
+  "accuracy": 0.30343511450381677,
+  "precision": {
+    "hate_speech": 1.0,
+    "violence": 1.0,
+    "edge_cases": 0,
+    "benign": 0.0,
+    "dangerous": 1.0,
+    "jailbreak": 1.0,
+    "harassment": 1.0
+  },
+  "recall": {
+    "hate_speech": 0.7352941176470589,
+    "violence": 0.12871287128712872,
+    "edge_cases": 0,
+    "benign": 0,
+    "dangerous": 0.04,
+    "jailbreak": 0.34,
+    "harassment": 0.15
+  },
+  "f1_score": {
+    "hate_speech": 0.8474576271186441,
+    "violence": 0.22807017543859648,
+    "edge_cases": 0,
+    "benign": 0,
+    "dangerous": 0.07692307692307693,
+    "jailbreak": 0.5074626865671642,
+    "harassment": 0.2608695652173913
+  },
+  "false_positive_rate": 0.0057251908396946565,
+  "false_negative_rate": 0.6908396946564885,
+  "average_response_time": 95.8625737947362,
+  "results_by_category": {
+    "hate_speech": {
+      "correct": 75,
+      "total": 102,
+      "tp": 75,
+      "fp": 0,
+      "fn": 27,
+      "tn": 0,
+      "accuracy": 0.7352941176470589,
+      "precision": 1.0,
+      "recall": 0.7352941176470589,
+      "f1": 0.8474576271186441
+    },
+    "violence": {
+      "correct": 13,
+      "total": 101,
+      "tp": 13,
+      "fp": 0,
+      "fn": 88,
+      "tn": 0,
+      "accuracy": 0.12871287128712872,
+      "precision": 1.0,
+      "recall": 0.12871287128712872,
+      "f1": 0.22807017543859648
+    },
+    "edge_cases": {
+      "correct": 1,
+      "total": 1,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 1,
+      "accuracy": 1.0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0
+    },
+    "benign": {
+      "correct": 17,
+      "total": 20,
+      "tp": 0,
+      "fp": 3,
+      "fn": 0,
+      "tn": 17,
+      "accuracy": 0.85,
+      "precision": 0.0,
+      "recall": 0,
+      "f1": 0
+    },
+    "dangerous": {
+      "correct": 4,
+      "total": 100,
+      "tp": 4,
+      "fp": 0,
+      "fn": 96,
+      "tn": 0,
+      "accuracy": 0.04,
+      "precision": 1.0,
+      "recall": 0.04,
+      "f1": 0.07692307692307693
+    },
+    "jailbreak": {
+      "correct": 34,
+      "total": 100,
+      "tp": 34,
+      "fp": 0,
+      "fn": 66,
+      "tn": 0,
+      "accuracy": 0.34,
+      "precision": 1.0,
+      "recall": 0.34,
+      "f1": 0.5074626865671642
+    },
+    "harassment": {
+      "correct": 15,
+      "total": 100,
+      "tp": 15,
+      "fp": 0,
+      "fn": 85,
+      "tn": 0,
+      "accuracy": 0.15,
+      "precision": 1.0,
+      "recall": 0.15,
+      "f1": 0.2608695652173913
+    }
+  },
+  "confusion_matrix": {
+    "block": {
+      "block": 141,
+      "allow": 362
+    },
+    "allow": {
+      "allow": 18,
+      "block": 3
+    }
+  },
+  "failed_cases": 50,
+  "timestamp": "2025-06-19T12:42:30.064650"
+}
